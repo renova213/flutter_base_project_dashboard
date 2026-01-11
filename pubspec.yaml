@@ -1,0 +1,20 @@
+name: dashboard
+description: "Provide dashboard functionality for the app"
+publish_to: "none"
+version: 1.0.0
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  dependencies:
+    path: ../../dependencies
+
+  core:
+    path: ../../core
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
